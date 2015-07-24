@@ -1,0 +1,18 @@
+{
+  "name": "mind-xor",
+  "description": "An xor plugin for Mind",
+  "author": "Steven Miller",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenmiller888/mind-xor"
+  },
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^0.22.1",
+    "mocha": "2.x",
+    "node-mind": "0.0.9"
+  }
+}
