@@ -2,7 +2,7 @@
   "name": "mind-xor",
   "description": "An xor plugin for Mind",
   "author": "Steven Miller",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/stevenmiller888/mind-xor"

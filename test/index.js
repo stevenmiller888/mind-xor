@@ -15,11 +15,11 @@ describe('xor', function() {
     assert.equal(typeof xor, 'object');
   });
 
-  it('should have an inputHiddenWeights property', function() {
-    assert(xor.inputHiddenWeights);
+  it('should have an inputHidden property', function() {
+    assert(xor.inputHidden);
   });
 
-  it('should have an hiddenOutputWeights property', function() {
-    assert(xor.hiddenOutputWeights);
+  it('should have an hiddenOutput property', function() {
+    assert(xor.hiddenOutput);
   });
 });
