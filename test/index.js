@@ -11,15 +11,15 @@ var xor = require('..');
  */
 
 describe('xor', function() {
-  it('should be an object', function() {
-    assert.equal(typeof xor, 'object');
+  it('should be an array', function() {
+    assert(xor instanceof Array);
   });
 
-  it('should have an inputHidden property', function() {
-    assert(xor.inputHidden);
+  it('should have input > hidden weights', function() {
+    assert(xor[0]);
   });
 
-  it('should have an hiddenOutput property', function() {
-    assert(xor.hiddenOutput);
+  it('should have hidden > output weights', function() {
+    assert(xor[1]);
   });
 });
